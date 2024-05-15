@@ -50,3 +50,21 @@ Le mot de passe est vérifié comme suit :
 Veuillez utiliser des blocs if imbriqués. Attention à la lisibilité globale du code.
 Astuce: passer une entrée vide à un prompt renvoie une chaîne de caractères vide ''. En pressant ESC lors d’un prompt cela retourne null. */
 
+let auth = prompt( "who's there ?" );
+    
+if( auth == "admin" ) {
+  let passwd = prompt( "Please enter your password");
+}
+ if ( passwd == "TheMaster" ) {
+       alert( "Welcome !");
+     } else if( passwd == null || '' ) {
+     alert("canceled");
+     } else if( passwd == "") {
+       alert( "incorrect password" );
+     }
+       
+  else if (auth == null || '') {
+       alert( "canceled" );
+ } else if {
+       alert ( "I don't know you" );
+   }
