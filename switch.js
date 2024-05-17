@@ -31,3 +31,34 @@ if ( browser == "Edge" ) {
     else {
         alert( 'We hope that this page looks ok!' );
     }
+
+
+    /*
+    Réécrire le "if" dans un "switch"
+importance: 4
+
+Réécrivez le code ci-dessous en utilisant une seule instruction switch :
+*/
+
+let a = +prompt('a?', '');
+
+if (a == 0) {
+  alert( 0 );
+}
+if (a == 1) {
+  alert( 1 );
+}
+
+if (a == 2 || a == 3) {
+  alert( '2,3' );
+}
+
+
+switch (a) {
+    case a == 0 :
+        alert( 0 );
+    case a == 1 :
+        alert( 1 );
+    case a == 2 || a == 3 :
+        alert( "2,3" );
+}
