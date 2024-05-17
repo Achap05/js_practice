@@ -28,9 +28,8 @@ function checkAge(age) {
   // ...
   return confirm('Did parents allow you?');
 }
-// non 
-"pourquoi else ne change rien ici ?"
 
+"non car return confirm ne s'exécute que si la condition est fausse" 
 
 /*
 Réécrivez la fonction en utilisant '?' ou '||'
